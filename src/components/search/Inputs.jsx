@@ -54,7 +54,7 @@ function Inputs({ setQuery, units, setUnits }) {
 		<div className="flex flex-row justify-center my-3">
 			<div className="flex flex-row items-center justify-center space-x-4">
 				<AsyncPaginate
-					className="text-xl dark:bg-slate-800  mb-2 max-w-[300px] font-light w-full shadow-xl focus:outline-none capitalize placeholder:lowercase rounded-md"
+					className="text-xl dark:bg-slate-800 min-w-[150px]  mb-2  font-light w-full shadow-xl focus:outline-none capitalize placeholder:lowercase rounded-md"
 					placeholder="Search for city..."
 					debounceTimeout={600}
 					value={city.name}
